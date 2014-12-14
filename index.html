@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>GDays Nigeria Attendance</title>
+</head>
+
+<body style="text-align: center">
+	<img src="/static/gdays.png" />
+	<h1> Welcome to GDays Attendance App </h1>
+	<p>
+		We have {{.attendees}} number of attendees.
+	</p>
+	<form action="/mark">
+		<h3> Mark yourself present </h3>
+		<label>Email</label> <input type="email" name="email"/>
+		<br />
+		<input type="submit" value="Submit"/>
+	</form>
+</body>
+</html>
