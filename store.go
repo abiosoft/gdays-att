@@ -2,7 +2,6 @@ package main
 
 import (
 	"labix.org/v2/mgo"
-	_ "labix.org/v2/mgo/bson"
 )
 
 var Database *mgo.Database
